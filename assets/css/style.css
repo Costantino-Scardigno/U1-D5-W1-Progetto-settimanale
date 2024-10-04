@@ -1,0 +1,164 @@
+/* Your styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  width: 400px;
+  line-height: 2rem;
+  text-align: center;
+  color: rgb(51 51 51 / 96%);
+}
+header {
+  background-color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-inline: 2rem;
+}
+.headings {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #03c3f1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-inline: 1rem;
+}
+.banner {
+  background-image: url(../images/banner.jpg);
+  height: 310px;
+  background-size: 116%;
+  background-position: center;
+}
+.banner p {
+  padding-inline: 2rem;
+}
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #e64a19;
+}
+.radius {
+  border-radius: 250px;
+  margin-top: 2rem;
+  width: 70%;
+}
+main {
+  padding-inline: 2rem;
+}
+h2 {
+  color: white;
+  font-size: bold;
+}
+
+.epicode-garantisce {
+  background-color: #ff5722;
+  color: white;
+  padding: 16px 16px;
+  margin-top: 2rem;
+}
+
+.epicode-garantisce h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.epicode-garantisce blockquote {
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.epicode-garantisce blockquote p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.epicode-garantisce footer {
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+}
+.cardim {
+  width: 100%;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+footer {
+  background-color: #00bcd4;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.copyright {
+  font-size: 0.9em;
+  color: white;
+  opacity: 0.8;
+}
