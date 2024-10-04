@@ -11,7 +11,8 @@ body {
   font-size: 1.2rem;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  width: 400px;
+  width: 440px;
+  height: auto;
   line-height: 2rem;
   text-align: center;
   color: rgb(51 51 51 / 96%);
@@ -131,6 +132,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
+  margin-bottom: 2rem;
 }
 
 .footer-container {
@@ -161,4 +163,7 @@ h3 {
   font-size: 0.9em;
   color: white;
   opacity: 0.8;
+}
+.linea {
+  text-decoration: underline;
 }
